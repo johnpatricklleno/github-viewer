@@ -49,10 +49,6 @@ Then in `.env.local` or `.env`, add your **GitHub Personal Access Token**:
 ```
 GITHUB_PERSONAL_TOKEN=ghp_yourtokenhere
 ```
-
-⚠️ **Important**:  
-Do **not** commit `.env.local` to your repo!
-
 ---
 
 ### 4. Generate Key
