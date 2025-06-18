@@ -86,15 +86,6 @@ Visit:
 - `app/Http/Controllers/GithubIssueController.php` – Routes & view data.
 - `resources/views/` – Blade views (`Bootstrap 5` based).
 - `routes/web.php` – Routes for listing and showing issues.
-
----
-
-## 📷 Screenshots
-
-| Issue List | Issue Detail |
-|------------|--------------|
-| ![List](screenshots/list.png) | ![Detail](screenshots/detail.png) |
-
 ---
 
 ## ⚙️ GitHub Token Setup
