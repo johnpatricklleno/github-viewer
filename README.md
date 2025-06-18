@@ -5,7 +5,7 @@
 1. Clone the repository
 2. Run `composer install`
 3. Copy `.env.example` to `.env`
-4. Create a `.env.local` file and add:
+4. Create a `.env.local` or edit the `.env` file and add:
     GITHUB_PERSONAL_TOKEN=your_token_here
 5. Run the server:
     php artisan serve
