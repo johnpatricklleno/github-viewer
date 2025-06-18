@@ -21,8 +21,8 @@ This is a Laravel application that allows a GitHub user to view **all open issue
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/johnpatricklleno/github-issues-viewer.git
-cd github-issues-viewer
+git clone https://github.com/johnpatricklleno/github-viewer.git
+cd github-viewer
 ```
 
 ---
