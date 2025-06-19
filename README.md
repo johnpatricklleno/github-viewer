@@ -1,5 +1,5 @@
 
-# GitHub Issues Viewer – Laravel + Bootstrap
+# GitHub Issues Viewer – Laravel + React
 
 This is a Laravel application that allows a GitHub user to view **all open issues assigned to them** across visible repositories, and view details of any individual issue. The UI is styled with **Bootstrap 5** and powered by the GitHub REST API.
 
@@ -51,32 +51,14 @@ GITHUB_PERSONAL_TOKEN=ghp_yourtokenhere
 ```
 ---
 
-### 4. Generate Key
+### 4. Run the Server
 
 ```bash
-php artisan key:generate
-```
-
----
-
-### 5. Build Assets (Optional)
-
-Only needed if modifying JS or CSS:
-
-```bash
-npm run dev
-```
-
----
-
-### 6. Run the Server
-
-```bash
-php artisan serve
+composer run dev
 ```
 
 Visit:  
-👉 http://localhost:8000/issues
+👉 http://localhost:8000/
 
 ---
 
