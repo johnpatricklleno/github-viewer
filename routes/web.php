@@ -1,10 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\GithubIssueController  ;
+use Inertia\Inertia;
 
-Route::get('/issues', [GithubIssueController::class, 'index'])->name('issues.index');
-Route::get('/issues/{owner}/{repo}/{number}', [GithubIssueController::class, 'show'])->name('issues.show');
+Route::get('/', function () {
+    return Inertia::render('welcome');
+})->name('home');
+
 
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';
+require __DIR__.'/api.php';

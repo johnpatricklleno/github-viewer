@@ -15,13 +15,13 @@ class GithubIssueController extends Controller
     public function index()
     {
         $issues = $this->github->getIssuesAssigned();
-        return view('issues.index', compact('issues'));
+        return response()->json($issues);
     }
 
     public function show($owner, $repo, $number)
     {
         $repoFullName = "{$owner}/{$repo}";
         $issue = $this->github->getIssueDetail($number, $repoFullName);
-        return view('issues.show', compact('issue'));
+         return response()->json($issue);
     }
 }
