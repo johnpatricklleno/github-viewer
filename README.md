@@ -1,7 +1,7 @@
 
 # GitHub Issues Viewer – Laravel + React
 
-This is a Laravel application that allows a GitHub user to view **all open issues assigned to them** across visible repositories, and view details of any individual issue. The UI is styled with **Bootstrap 5** and powered by the GitHub REST API.
+This is a Laravel application that allows a GitHub user to view **all open issues assigned to them** across visible repositories, and view details of any individual issue. The UI is styled with React with TailwindCSS and powered by the GitHub REST API.
 
 ---
 
