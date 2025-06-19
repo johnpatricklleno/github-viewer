@@ -21,8 +21,8 @@ This is a Laravel application that allows a GitHub user to view **all open issue
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/github-issues-viewer.git
-cd github-issues-viewer
+git clone https://github.com/johnpatricklleno/github-viewer.git
+cd github-viewer
 ```
 
 ---
@@ -49,10 +49,6 @@ Then in `.env.local` or `.env`, add your **GitHub Personal Access Token**:
 ```
 GITHUB_PERSONAL_TOKEN=ghp_yourtokenhere
 ```
-
-⚠️ **Important**:  
-Do **not** commit `.env.local` to your repo!
-
 ---
 
 ### 4. Generate Key
@@ -87,18 +83,9 @@ Visit:
 ## 🧱 Project Structure
 
 - `app/Services/GithubService.php` – Handles GitHub API logic.
-- `app/Http/Controllers/IssueController.php` – Routes & view data.
+- `app/Http/Controllers/GithubIssueController.php` – Routes & view data.
 - `resources/views/` – Blade views (`Bootstrap 5` based).
 - `routes/web.php` – Routes for listing and showing issues.
-
----
-
-## 📷 Screenshots
-
-| Issue List | Issue Detail |
-|------------|--------------|
-| ![List](screenshots/list.png) | ![Detail](screenshots/detail.png) |
-
 ---
 
 ## ⚙️ GitHub Token Setup
